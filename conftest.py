@@ -13,10 +13,7 @@ def browser_settings():
 
 @pytest.fixture
 def open_google():
-    browser.open('https://google.com')
-    pass
-
+    return 'https://google.com'
 @pytest.fixture
 def open_yandex():
-    browser.open('https://ya.ru')
-    pass
+    return 'https://ya.ru'
