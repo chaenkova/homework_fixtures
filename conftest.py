@@ -11,9 +11,3 @@ def browser_settings():
     browser.quit()
     print("Закрываем браузер!")
 
-@pytest.fixture
-def open_google():
-    return 'https://google.com'
-@pytest.fixture
-def open_yandex():
-    return 'https://ya.ru'
